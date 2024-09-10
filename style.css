@@ -59,7 +59,7 @@ header{
 }
 .nav_search{
     height: 100%;
-    width: 75px;
+    width: 80px;
     background-color: rgba(235, 6, 6, 0.89);
     display: flex;
     align-items: center;
@@ -116,6 +116,7 @@ header{
     align-items: center;
     background-color: #F2F2F2;;
     justify-content: space-evenly;
+
 }
 .service{
     height: 120px;
@@ -184,7 +185,7 @@ footer{
     margin-top: 80px;
 }
 .foot_panel1{
-    height: 700px;
+    height: 750px;
     width: 100%;
     display: flex;
     background-color: #252525;
@@ -198,7 +199,7 @@ footer{
     justify-content: flex-end;
 }
 .left_panel_box1{
-    height: 300px;
+    height: 350px;
     width: 75%;
     border-bottom: 1px solid gray;
     display: flex;
@@ -206,7 +207,7 @@ footer{
     justify-content: space-between;
 }
 .left_panel_box2{
-    height: 250px;
+    height: 400px;
     width: 75%;
     border-bottom: 1px solid gray;
 }
@@ -304,7 +305,7 @@ footer{
     color: #A0A0A0;
 }
 .foot_box2_para2{
-    height: 230px;
+    height: 260px;
     width: 100%;
     display: flex;
     flex-direction: column;

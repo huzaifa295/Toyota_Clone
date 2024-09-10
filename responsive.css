@@ -1,0 +1,486 @@
+@media only screen and (max-width:1020px){
+    .nav_links ul,a{
+        visibility: hidden;
+        font-size:7px;
+    }
+    .menu_icon svg{
+        visibility: visible;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:620px){
+    .top_bar p{
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .nav_links ul,a{
+        font-size:2px;
+    }
+    .menu_icon svg{
+        height: 28px;
+    }
+    .nav_logo img{
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width:530px){
+    .nav_links ul,a{
+        font-size: 0px;
+    }
+    .nav_bar{
+        height: 100px;
+    }
+    
+}
+
+@media only screen and (max-width:400px){
+    .menu_icon svg{
+        height: 23px;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .carousel-inner img{
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .bar ul,li{
+        font-size: 1.11rem;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width:520px){
+    .bar ul,li{
+        font-size: 0.85rem;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width:856px){
+    .car_banner{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width:1300px){
+    .service{
+        height: 120px;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width:1050px){
+    .service{
+        height: 110px;
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width:920px){
+    .service{
+        height: 100px;
+        width: 200px;
+    }
+    .box1 svg{
+        height: 50px;
+        width: 50px;
+    }
+    .box2 p{
+        font-weight: 400;
+        font-size: 1.15rem;
+    }
+
+}
+@media only screen and (max-width:830px){
+    .service{
+        height: 90px;
+        width: 170px;
+    }
+    .box1 svg{
+        height: 40px;
+    }
+    .box2 p{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:720px){
+    .service{
+        height: 80px;
+        width: 160px;
+    }
+    .box1 svg{
+        height: 30px;
+    }
+    .box2 p{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .service_section{
+        height: 500px;
+        flex-wrap: wrap;    
+    }
+    .service{
+        height: 180px;
+        width: 300px;
+        flex-direction: column;
+    }
+    .box1{
+        height: 40%;
+        width: 100%;
+    }
+    .box2{
+        height: 60%;
+        width: 100%;
+        justify-content: center;
+    }
+    .box1 svg{
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width:630px){
+    .service{
+        height: 180px;
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width:590px){
+    .service{
+        height: 180px;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width:535px){
+    .service_section{
+        height: 450px;
+        flex-wrap: wrap;    
+    }
+    .service{
+        height: 160px;
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width:475px){
+    .service{
+        height: 160px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:435px){
+    .service_section{
+        height: 400px;
+        flex-wrap: wrap;    
+    }
+    .service{
+        height: 160px;
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .service{
+        height: 160px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .carts_section{
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+    .carts{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .carts_section{
+        gap: 0px; 
+    }
+    .carts{
+        height: 350px ;
+        width: 220px;
+    }
+    .content p{
+        font-size: 0.85rem;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width:945px){
+    .carts{
+        height: 310px ;
+        width: 180px;
+    }
+    .content p{
+        font-size: 0.85rem;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width:780px){
+    .carts_section{
+        height: 225vh ;
+        width: 100%;
+        gap: 30px;
+       flex-direction: column;
+    }
+    .carts{
+        height: 400px ;
+        width: 280px;
+        cursor: pointer;
+    }
+    .img{
+        height: 70%;
+        width: 100%
+    }
+    .content{
+        height: 30%;
+        width: 100%;
+    }
+    .content h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    .content p{
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgba(235, 6, 6, 0.89);
+    }
+}
+
+@media only screen and (max-width:945px){
+    .left_panel{
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 15px;
+}
+    .left_panel_box3 svg{
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .foot_panel1{
+        height: 2600px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .left_panel{
+        height: 30%;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .left_panel_box1{
+        height: 360px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .left_panel_box2{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .left_panel_box3{
+        height: 250px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right_panel{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+
+    }
+    .right_panel_box{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+    .foot_head{
+        height: 50px;
+        width: 100%;
+    }
+    .foot_box1_para1{
+        height: 90px;
+        width: 100%;
+    }
+    .foot_box1_para2{
+        height: 180px;
+        width: 100%;
+    }
+    .foot_box1_para3{
+        height: 80px;
+        width: 100%;
+    }
+    .foot_box1_para4{
+        height: 55px;
+        width: 100%;
+    }
+    .foot_box2_para1{
+        height: 160px;
+        width: 100%;
+    }
+    .foot_box2_para2{
+        height: 260px;
+        width: 100%;
+    }
+    .foot_box3_para1{
+        height: 180px;
+        width: 100%;
+    }
+    .foot_box3_para2{
+        height: 60px;
+        width: 100%;
+    }
+    .move{
+        height: 100%;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .move img{
+        padding-left: 60px;
+
+    }
+
+}
+
+@media only screen and (max-width:385px){
+    .move img{
+        padding-left: 90px;
+
+    }
+}
+
+@media only screen and (max-width:1025px){
+    .foot_panel3{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .foot_box2{
+        height: 100px;
+        width: 100%;
+    }
+    .foot_box3{
+        height: 40px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width:1210px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 82%;
+        z-index: 10;
+    }
+}
+@media only screen and (max-width:940px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 80%;
+        z-index: 10;
+    }
+}
+@media only screen and (max-width:830px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 76%;
+        z-index: 10;
+    }
+}
+@media only screen and (max-width:700px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 72%;
+        z-index: 10;
+    }
+}
+@media only screen and (max-width:580px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 68%;
+        z-index: 10;
+    }
+}
+@media only screen and (max-width:520px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 64%;
+        z-index: 10;
+    }
+}
+@media only screen and (max-width:560px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 62%;
+        z-index: 10;
+    }
+}
+@media only screen and (max-width:440px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 58%;
+        z-index: 10;
+    }
+}
+@media only screen and (max-width:400px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 52%;
+        z-index: 10;
+    }
+}
+@media only screen and (max-width:350px){
+    .fix{
+        position: fixed;
+        top: 90%;
+        left: 48%;
+        z-index: 10;
+    }
+}
